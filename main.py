@@ -117,5 +117,5 @@ async def search(ctx):
         await ctx.send("Command timed out. Please try again later.")
 
 
-bot.run("MTEzODUzNjYzNjE1ODg1NzIzOA.GUa2t5.48GDzd4dxhoOWvrgQfprPe_n1o5xOTede1uVl8")
+bot.run("MTEzODUzNjYzNjE1ODg1NzIzOA.GWUpmT.19ybg99zGpPIKA3K7vyysC-D_yyX0NEBbIEoKA")
 
