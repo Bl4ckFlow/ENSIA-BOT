@@ -1,11 +1,13 @@
+import os
 import discord
 from discord.ext import commands
 from urllib.parse import urlencode
+from dotenv import load_dotenv
 import requests
 import json
 import asyncio
 
-
+load_dotenv(dotenv_path="config")
 
 intents = discord.Intents.all()
 
@@ -117,5 +119,5 @@ async def search(ctx):
         await ctx.send("Command timed out. Please try again later.")
 
 
-bot.run("MTEzODUzNjYzNjE1ODg1NzIzOA.GWUpmT.19ybg99zGpPIKA3K7vyysC-D_yyX0NEBbIEoKA")
+bot.run(os.getenv("TOKEN"))
 
